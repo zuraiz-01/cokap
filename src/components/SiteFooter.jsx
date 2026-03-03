@@ -8,12 +8,18 @@ function SiteFooter() {
             cakap
           </a>
           <p>Learn language, build confidence, and communicate globally.</p>
+          <ul className="footer-social">
+            <li>fb</li>
+            <li>ig</li>
+            <li>yt</li>
+          </ul>
         </section>
 
         <section>
           <h4>Office</h4>
           <ul>
-            <li>Jakarta, Indonesia</li>
+            <li>JAKARTA</li>
+            <li>Indonesia</li>
             <li>+62 812 8900 777</li>
             <li>contact@cakap.com</li>
           </ul>

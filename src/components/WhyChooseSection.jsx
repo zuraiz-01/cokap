@@ -2,6 +2,7 @@ function WhyChooseSection({ reasons }) {
   return (
     <section className="why-choose section-gap">
       <div className="why-visual">
+        <div className="visual-blob" />
         <div className="visual-main">
           <img
             src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80"
@@ -24,7 +25,7 @@ function WhyChooseSection({ reasons }) {
         <h2>Why Should Choose Cakap?</h2>
         {reasons.map((item) => (
           <article key={item.title} className="reason-item">
-            <span>+</span>
+            <span className="reason-icon">✓</span>
             <div>
               <h3>{item.title}</h3>
               <p>{item.desc}</p>

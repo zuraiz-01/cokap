@@ -12,12 +12,16 @@ function TestimonialsSection() {
           alt="Customer"
         />
         <div>
+          <span className="quote-mark">"</span>
           <p>
             I can now speak English in office meetings with much more confidence.
             Cakap mentors corrected my weak points and vocabulary every week.
           </p>
           <strong>Arvin K.</strong>
         </div>
+        <button className="testimonial-next" aria-label="Next review">
+          ›
+        </button>
       </article>
     </section>
   )

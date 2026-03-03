@@ -11,59 +11,59 @@ function App() {
   const services = [
     {
       title: 'Online Private',
-      desc: 'Build strong fluency in a focused one-on-one class with expert tutors.',
-      badge: '01',
+      desc: 'Build strong speaking ability in private one-on-one sessions.',
+      badge: 'CP',
       featured: true,
     },
     {
       title: 'Cakap Club',
-      desc: 'Learn by speaking and role play activities inside small peer groups.',
-      badge: '02',
+      desc: 'Learn by speaking and role-play activities with friends.',
+      badge: 'CC',
     },
     {
       title: 'Cakap Chat',
-      desc: 'Daily language chat prompts that help you practice in real context.',
-      badge: '03',
+      desc: 'Practice every day using short chat prompts and feedback.',
+      badge: 'CT',
     },
     {
       title: 'Cakap Event',
-      desc: 'Join topic-based speaking events and sharpen your communication.',
-      badge: '04',
+      desc: 'Join topic-based events and sharpen your communication.',
+      badge: 'CE',
     },
   ]
 
   const reasons = [
     {
       title: 'Easy and Flexible',
-      desc: 'Set your own schedule and learn from anywhere without losing progress.',
+      desc: 'Set your own schedule and learn from anywhere at your pace.',
     },
     {
       title: 'Interactive Material',
-      desc: 'Practical lessons, speaking drills, and guided assignments in one place.',
+      desc: 'Practical lessons, speaking drills, and guided assignments.',
     },
     {
-      title: 'Mentor Feedback',
-      desc: 'Receive direct corrections and personalized learning direction every week.',
+      title: 'Certified Learning Material',
+      desc: 'Reliable curriculum and structured goals for long-term progress.',
     },
   ]
 
   const programs = [
     {
       title: 'Other Programs',
-      desc: 'Broader learning tracks for students who need career-focused communication paths.',
-      cta: 'Get Consultation',
+      desc: 'We provide complete language learning solutions for schools, teams, and institutions.',
+      cta: 'See Program',
       tone: 'soft',
     },
     {
       title: 'Cakap Corporate',
       desc: 'Live class packages for teams with custom goals and business communication modules.',
-      cta: 'Schedule Class',
+      cta: 'Get Consultation',
       tone: 'primary',
     },
     {
       title: 'Online Webinar',
-      desc: 'Open sessions with active speakers, practical tips, and live Q&A for members.',
-      cta: 'Join Now',
+      desc: 'Open sessions with active speakers and practical communication tips.',
+      cta: 'Learn More',
       tone: 'dark',
     },
   ]
